@@ -26,7 +26,6 @@ package top.wutunan.wutunanwebcommonlib.result;
  * <p>这个样做的目的时：为了可以自己定义：Api的msg。</p>
  * @author  wutunan
  * @since JDK1.8
- * @Date 2024/6/5
  */
 public interface IRespEnum {
 

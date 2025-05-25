@@ -97,12 +97,20 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.9.1</version>
                 <configuration>
+                    <!-- 解决中文乱码 -->
+                    <encoding>UTF-8</encoding>
+                    <!-- 文档编码 -->
+                    <docencoding>UTF-8</docencoding>
+                    <!-- 指定输出日志编码 -->
+                    <charset>UTF-8</charset>
+                    <!--    JDK 8+ 默认启用 doclint，它会以严格模式检查 Javadoc。-->
                     <additionalparam>-Xdoclint:none</additionalparam>
                 </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
                         <goals>
+                            <!-- 打包时生成 javadoc -->
                             <goal>jar</goal>
                         </goals>
                     </execution>
