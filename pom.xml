@@ -18,11 +18,11 @@
     <url>https://wutunan.top/favicon.ico</url>
     <scm>
         <!--项目访问url.git结尾 -->
-        <connection>scm:git:https://github.com/triggergun/wutunan-open-auth.git</connection>
+        <connection>scm:git:https://github.com/triggergun/wutunan-web-common-lib.git</connection>
         <!--项目访问url.git结尾 -->
-        <developerConnection>scm:git:https://github.com/triggergun/wutunan-open-auth.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/triggergun/wutunan-web-common-lib.git</developerConnection>
         <tag>wutunan-open-auth</tag>
-        <url>https://github.com/triggergun/wutunan-open-auth</url>
+        <url>https://github.com/triggergun/wutunan-web-common-lib</url>
     </scm>
     <!--   来将可留姓名  -->
     <developers>
@@ -31,7 +31,7 @@
             <id>wutunan</id>
             <email>19970694323@163.com</email>
             <!--项目访问url -->
-            <url>https://github.com/triggergun/wutunan-open-auth</url>
+            <url>https://github.com/triggergun/wutunan-web-common-lib</url>
             <!-- 角色 -->
             <roles>
                 <role>Developer</role>
